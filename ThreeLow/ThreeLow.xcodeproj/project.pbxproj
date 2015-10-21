@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93B5A9F01BD8055C00325D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B5A9EF1BD8055C00325D9D /* main.m */; };
+		93B5A9F81BD805EA00325D9D /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B5A9F71BD805EA00325D9D /* Dice.m */; settings = {ASSET_TAGS = (); }; };
+		93B5A9FB1BD812F300325D9D /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B5A9FA1BD812F300325D9D /* InputCollector.m */; settings = {ASSET_TAGS = (); }; };
+		93B5A9FE1BD82AA300325D9D /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B5A9FD1BD82AA300325D9D /* GameController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93B5A9EA1BD8055C00325D9D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		93B5A9EC1BD8055C00325D9D /* ThreeLow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreeLow; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B5A9EF1BD8055C00325D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93B5A9F61BD805EA00325D9D /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		93B5A9F71BD805EA00325D9D /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		93B5A9F91BD812F300325D9D /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		93B5A9FA1BD812F300325D9D /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		93B5A9FC1BD82AA300325D9D /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		93B5A9FD1BD82AA300325D9D /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B5A9E91BD8055C00325D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B5A9E31BD8055C00325D9D = {
+			isa = PBXGroup;
+			children = (
+				93B5A9EE1BD8055C00325D9D /* ThreeLow */,
+				93B5A9ED1BD8055C00325D9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B5A9ED1BD8055C00325D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B5A9EC1BD8055C00325D9D /* ThreeLow */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B5A9EE1BD8055C00325D9D /* ThreeLow */ = {
+			isa = PBXGroup;
+			children = (
+				93B5A9EF1BD8055C00325D9D /* main.m */,
+				93B5A9F61BD805EA00325D9D /* Dice.h */,
+				93B5A9F71BD805EA00325D9D /* Dice.m */,
+				93B5A9F91BD812F300325D9D /* InputCollector.h */,
+				93B5A9FA1BD812F300325D9D /* InputCollector.m */,
+				93B5A9FC1BD82AA300325D9D /* GameController.h */,
+				93B5A9FD1BD82AA300325D9D /* GameController.m */,
+			);
+			path = ThreeLow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B5A9EB1BD8055C00325D9D /* ThreeLow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B5A9F31BD8055C00325D9D /* Build configuration list for PBXNativeTarget "ThreeLow" */;
+			buildPhases = (
+				93B5A9E81BD8055C00325D9D /* Sources */,
+				93B5A9E91BD8055C00325D9D /* Frameworks */,
+				93B5A9EA1BD8055C00325D9D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeLow;
+			productName = ThreeLow;
+			productReference = 93B5A9EC1BD8055C00325D9D /* ThreeLow */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B5A9E41BD8055C00325D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Benson Huynh";
+				TargetAttributes = {
+					93B5A9EB1BD8055C00325D9D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 93B5A9E71BD8055C00325D9D /* Build configuration list for PBXProject "ThreeLow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93B5A9E31BD8055C00325D9D;
+			productRefGroup = 93B5A9ED1BD8055C00325D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B5A9EB1BD8055C00325D9D /* ThreeLow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B5A9E81BD8055C00325D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B5A9FB1BD812F300325D9D /* InputCollector.m in Sources */,
+				93B5A9FE1BD82AA300325D9D /* GameController.m in Sources */,
+				93B5A9F81BD805EA00325D9D /* Dice.m in Sources */,
+				93B5A9F01BD8055C00325D9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		93B5A9F11BD8055C00325D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93B5A9F21BD8055C00325D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93B5A9F41BD8055C00325D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93B5A9F51BD8055C00325D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B5A9E71BD8055C00325D9D /* Build configuration list for PBXProject "ThreeLow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B5A9F11BD8055C00325D9D /* Debug */,
+				93B5A9F21BD8055C00325D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B5A9F31BD8055C00325D9D /* Build configuration list for PBXNativeTarget "ThreeLow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B5A9F41BD8055C00325D9D /* Debug */,
+				93B5A9F51BD8055C00325D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B5A9E41BD8055C00325D9D /* Project object */;
+}
