@@ -56,19 +56,29 @@
 
 - (void)reset {
     [self.heldDice removeAllObjects];
-    
     [self rollDices];
 }
+    
 
 - (void)printValues {
     for (int i = 0; i < self.diceAvailable.count; i++) {
         Dice *currentDice = self.diceAvailable[i];
         if ([self.heldDice containsObject:currentDice]) {
-            NSLog(@"[Dice #%d rolled %d]", i, currentDice.currentValue);
+            NSLog(@"[Dice #%d held %d]", i, currentDice.currentValue);
         } else {
             NSLog(@"Dice #%d rolled %d", i, currentDice.currentValue);
         }
     }
 }
+
+- (void)score {
+    int score = 0;
+    
+    for (Dice *dice in self.diceAvailable) {
+        score = score + dice.currentValue;
+    }
+    NSLog(@"current score: %d", score);
+}
+
 
 @end

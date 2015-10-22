@@ -26,16 +26,20 @@ int main(int argc, const char * argv[]) {
                 [gameController printValues];
                 
                 while (YES) {
-                    NSString *prompt = @"\nroll - continue play\ndice index - hold or unhold dice\nquit - exit game\n";
+                    NSString *prompt = @"\n roll - continue play\n press no. 0-4 - hold or unhold dice\n reset - reset\n exit - exit to start\n";
                     
                     NSString* innerInput = [userInput inputForPrompt:prompt];
                     
                     if ([innerInput isEqualToString:@"roll\n"]) {
                         [gameController rollDices];
                         [gameController printValues];
-                    } else if ([innerInput isEqualToString:@"quit\n"]) {
+                        [gameController score];
+                    } else if ([innerInput isEqualToString:@"reset\n"]) {
+                        [gameController reset];
+                    } else if ([innerInput isEqualToString:@"exit\n"]) {
                         break;
-                    } else {
+                    }
+                        else{
                         [gameController holdOrUnholdDice:innerInput.intValue];
                     }
                 }

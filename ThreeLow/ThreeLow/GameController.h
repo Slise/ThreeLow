@@ -14,5 +14,6 @@
 - (void)holdOrUnholdDice:(int)diceIndex;
 - (void)printValues;
 - (void)reset;
+- (void)score;
 
 @end
